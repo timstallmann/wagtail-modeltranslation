@@ -27,7 +27,7 @@ Instead of a **Foo** model, this could be any Wagtail model class:
 .. code-block:: console
 
    from .models import Foo
-   from wagtail_modeltranslation.translation import WagtailTranslationOptions
+   from wagtail_modeltranslation.translator import WagtailTranslationOptions
    from modeltranslation.decorators import register
 
    @register(Foo)
